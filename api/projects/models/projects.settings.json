@@ -28,6 +28,9 @@
     },
     "LgSummary": {
       "type": "richtext"
+    },
+    "ModalName": {
+      "type": "string"
     }
   }
 }
