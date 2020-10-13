@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "dogaruo2j",
+    "api_key": "163493134279573",
+    "api_secret": "sE21baRNldyurvMfVt3jjTdp0Y8"
+  }
+}
