@@ -23,14 +23,33 @@
     "Code": {
       "type": "string"
     },
-    "Image": {
-      "type": "string"
-    },
     "LgSummary": {
       "type": "richtext"
     },
     "ModalName": {
       "type": "string"
+    },
+    "Video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
